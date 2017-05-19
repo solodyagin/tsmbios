@@ -1,18 +1,20 @@
  The [SMBIOS](http://www.dmtf.org/standards/smbios) (System Management BIOS) is a standard developed by the  [DMTF](http://www.dmtf.org/). The information stored in the SMBIOS includes devices manufacturer, model name, serial number, BIOS version, asset tag, processors, ports and device memory installed.
 
-![logo](https://github.com/RRUZ/tsmbios/blob/master/images/logo.png)The TSMBIOS project allows access the System Management BIOS (SMBIOS) using the Object Pascal language (Delphi or Free Pascal). 
+![logo](https://github.com/RRUZ/tsmbios/blob/master/images/logo.png)The TSMBIOS libary allows access the System Management BIOS (SMBIOS) using the Object Pascal language (Delphi or Free Pascal). 
 
 ## Features
 Some features of this project are
 
 * Source Full documented compatible with the help insight feature, available since Delphi 2005.
 * Supports SMBIOS Version from 2.1 to 2.8
-* Supports Delphi 5, 6, 7, 2005, BDS/Turbo 2006 and RAD Studio 2007, 2009, 2010, XE, XE2, XE3, XE4, XE5, XE6, XE7, XE8, 10  Seattle.
+* Supports Delphi 5, 6, 7. 
+* Supports RAD Studio 2005-2010 
+* Supports RAD Studio XE-XE8 
+* Supports RAD Studio 10 Seattle, RAD Studio 10.1 Berlin, RAD Studio 10.2 Tokyo
 * Compatible with FPC 2.4.0+
-* Supports Windows, Linux (only using FPC)
-* SMBIOS Data can be obtained using WinAPI (Only Windows), WMI (Only Windows) or loading a saved SMBIOS dump
-* SMBIOS Data can be saved and load to a file
-* SMBIOS Data can be obtained from remote machines
+* Supports Windows, Linux.
+* SMBIOS Data can be saved and/or load to a file.
+* SMBIOS Data can be obtained from remote machines (via WMI).
  
 
 ## SMBIOS Tables supported
